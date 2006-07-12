@@ -1,0 +1,12 @@
+Revision history for Perl module Geo::SpaceManager
+
+0.01 Tue Nov  1 16:01:13 2005
+    - original version; created by ExtUtils::ModuleMaker 0.43
+
+0.9  Wed Jul 12 16:46 2006
+    - version being prepared for submission to CPAN
+    Added test to allow placement of overlapping rectangles.
+    Added return 1 to add method on success, undef on failure.
+    Added distance method. Added some POD text.
+    Generated test programs.
+

@@ -1,0 +1,14 @@
+MANIFEST
+README
+LICENSE
+Todo
+Changes
+Makefile.PL
+lib/Geo/SpaceManager.pm
+t/01load.t
+t/02add.t
+t/03nearest.t
+t/04normal.t
+t/05minimum.t
+t/06distance.t
+META.yml                                 Module meta-data (added by MakeMaker)
