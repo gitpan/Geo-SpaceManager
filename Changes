@@ -10,7 +10,7 @@ Revision history for Perl module Geo::SpaceManager
     Added distance method. Added some POD text.
     Generated test programs.
 
-0.9.1 Thu Oct 26 14:30 2006
+0.91 Thu Oct 26 14:30 2006
     - Fix bad distance tests
     Changed tests in 06distance.t from 
       delta_ok( 0, 0, 0 ); 

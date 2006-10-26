@@ -2,7 +2,7 @@ NAME
     Geo::SpaceManager - Place rectangles without overlap
 
 VERSION
-    Version 0.9.1, released October, 2006
+    Version 0.91, released October, 2006
 
 SYNOPSIS
      use Geo::SpaceManager;
