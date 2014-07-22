@@ -26,7 +26,7 @@ Version 0.91, released October, 2006.
 =cut
 
 # public global variables
-our $VERSION = '0.91';
+our $VERSION = '0.92';
 our $DEBUG = 0;
 
 # private global variables
@@ -37,16 +37,17 @@ my @opposite = ( 2, 3, 0, 1 );	# opposite sides of rectangle
  use Geo::SpaceManager;
 
  $sm = Geo::SpaceManager->new([0,0,100,100]);
- $r1 = [10,10,40,30];
- $r2 = [20,20,60,40];
- $r3 = [50,10,70,40];
- $r4 = [70,40,100,60];
- $sm->add($r1);
- $p2 = $sm->nearest($r2);  # returns [20,30,60,50];
+ my $r1 = [10,10,40,30];
+ my $r2 = [20,20,60,40];
+ my $r3 = [50,10,80,70];
+ my $r4 = [20,50,90,90];
+ my $p1 = $sm->nearest($r1);  # returns [10,10,40,30];
+ $sm->add($p1);
+ my $p2 = $sm->nearest($r2);  # returns [20,30,60,50];
  $sm->add($p2);
- $p3 = $sm->nearest($r3);  # returns [60,10,80,50];
+ my $p3 = $sm->nearest($r3);  # returns [60,10,90,70]
  $sm->add($p3);
- $p4 = $sm->nearest($r4);  # returns undef
+ my $p4 = $sm->nearest($r4);  # returns undef
 
 =head1 DESCRIPTION
 
@@ -576,7 +577,6 @@ it and/or modify it under the same terms as Perl itself.
 
 The full text of the license can be found in the
 LICENSE file included with this module.
-
 
 =head1 SEE ALSO
 
