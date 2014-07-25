@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Geo-SpaceManager
-version:            0.92
+version:            0.93
 abstract:           Place rectangles without overlap
 author:
     - Jim Gibson (Jim@Gibson.org)

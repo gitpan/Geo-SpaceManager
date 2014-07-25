@@ -21,3 +21,6 @@ Revision history for Perl module Geo::SpaceManager
 0.92 Wed Jul 22 16:30 2014
 	- Fix documentation error:
 	Sample code in Synopsis was incorrect
+	
+0.03 Fri Jul 25 2014
+	- Correct bad version number in POD (by removing it)

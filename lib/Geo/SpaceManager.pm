@@ -19,14 +19,10 @@ use Carp qw(carp croak);
 
 Geo::SpaceManager - Place rectangles without overlap
 
-=head1 VERSION
-
-Version 0.91, released October, 2006.
-
 =cut
 
 # public global variables
-our $VERSION = '0.92';
+our $VERSION = '0.93';
 our $DEBUG = 0;
 
 # private global variables
